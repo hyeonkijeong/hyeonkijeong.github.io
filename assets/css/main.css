@@ -1629,12 +1629,6 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-
-			
-		}
-
-		.image fit {
-			display: block;
 		  	min-width: 100%;
 		 	min-height: 100%;
 		  	width: auto;
@@ -1646,6 +1640,12 @@ input, select, textarea {
 		  	-moz-transform: translate(-50%, -50%);
 		  	-ms-transform: translate(-50%, -50%);
 		  	transform: translate(-50%, -50%);
+			
+		}
+
+		.image.fit {
+			display: block;
+
 			
 		}
 
