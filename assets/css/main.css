@@ -1629,13 +1629,12 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			border-radius: 50%;
+			width: 100%;
 		}
 
 		.image.fit {
 			display: block;
-			
-			border-radius: 50%;
+			width: 100%;
 		}
 
 		.image.featured {
